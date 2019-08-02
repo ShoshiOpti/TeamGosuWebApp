@@ -13,5 +13,7 @@ namespace TeamGosuWebApp.Services
         Task SendRegistrationEmailAsync(string email, string subject, string message, string name);
 
         void Send(EmailMessage emailMessage);
+
+        // TODO-SG void SendEmailConfirmationAsync(email, callbackUrl);
     }
 }
